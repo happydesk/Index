@@ -1,16 +1,13 @@
 {
-  "dependencies": {
-    "tailwindcss": "^2.1.2"
-  },
   "name": "index",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "tailwind build inc/plugins/simplebox.css -o assets/css/plugins/simplebox.css"
   },
   "repository": {
     "type": "git",
@@ -23,5 +20,7 @@
     "url": "https://github.com/happydesk/Index/issues"
   },
   "homepage": "https://github.com/happydesk/Index#readme",
-  "description": ""
+  "dependencies": {
+    "tailwindcss": "^2.1.2"
+  }
 }
